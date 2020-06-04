@@ -25,7 +25,6 @@ public class Client {
 		}
 		
         Thread messageListener = new Thread(new Runnable() {
-		
             @Override
             public void run() {
                 while( true ) {
