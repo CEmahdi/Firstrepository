@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.net.SocketException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Server {
 	
