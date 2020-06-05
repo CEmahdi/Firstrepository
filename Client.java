@@ -4,8 +4,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.lang.Thread;
-
-public class Client {
+public class Client{
 	public static void main(String[] args) throws UnknownHostException, IOException {
 		Scanner scan = new Scanner(System.in);
 		Socket socket = new Socket("localhost",888);
